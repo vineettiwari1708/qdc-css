@@ -1,3 +1,11 @@
+
+@media only screen and (min-width: 701px)
+{
+.menu-item-has-children .current-menu-item a
+{
+	color:#2e2e2e!important;
+}
+}
 .slick-arrow-02 .slick-prev, .slick-arrow-02 .slick-next{top:25% !important;}
 
 #tt-header .tt-menu > ul > li.is-subMenu .tt-icon-subMenu{padding-right:20px}
