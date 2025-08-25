@@ -1,0 +1,9 @@
+@media (max-width: 700px) {
+    #tt-header .tt-menu.open-menu {
+        display: block;
+        height: auto !important;
+        position: absolute;
+        right: 0px;
+        background: white;
+    }
+}
