@@ -1,4 +1,4 @@
-
+/* 
 @media only screen and (min-width: 701px)
 {
 .menu-item-has-children .current-menu-item a
@@ -51,4 +51,72 @@ header .tt-menu{float:left;margin-left:30px}
      {
         margin: 1px 0 0 0;
      }
+} */
+
+/* Global Styles */
+.slick-arrow-02 .slick-prev,
+.slick-arrow-02 .slick-next {
+    top: 25% !important;
+}
+
+#tt-header .tt-menu > ul > li.is-subMenu .tt-icon-subMenu {
+    padding-right: 20px;
+}
+
+#tt-header .tt-logo {
+    display: flex;
+    align-items: center;
+}
+
+header .tt-logo .logo-icon {
+    position: relative !important;
+    z-index: 0;
+}
+
+header .tt-menu {
+    float: right;
+}
+
+.breadcrumbs {
+    margin-bottom: 50px;
+}
+@media only screen and (min-width: 701px) {
+    .menu-item-has-children .current-menu-item a {
+        color: #2e2e2e !important;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1219px) {
+    header .tt-menu {
+        float: left;
+        margin-left: 30px;
+    }
+}
+@media (min-width: 1200px) {
+    .mainSlider .slide .slide-content .tp-caption-01-02 {
+        font-size: 80px;
+        margin-top: 27px;
+        margin-left: 3%;
+    }
+
+    .mainSlider .slide .slide-content .tp-caption-01-01,
+    .mainSlider .slide .slide-content .tp-caption-01-01-bottom {
+        font-size: 30px;
+        margin-left: 3.0%;
+    }
+}
+
+@media (max-width: 700px) {
+    #tt-header .tt-menu.open-menu {
+        display: block;
+        height: auto !important;
+        position: absolute;
+        right: 0px;
+        background: white;
+        width: 300px;
+    }
+
+    #tt-header .tt-menu ul {
+        margin: 1px 0 0 0;
+    }
 }
