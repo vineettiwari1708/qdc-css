@@ -120,10 +120,4 @@ header .tt-menu {
         margin: 1px 0 0 0;
     }
 }
-@media only screen and (min-width: 701px)
-{
-.menu-item-has-children .current-menu-item a
-{
-	color:#2e2e2e!important;
-}
-}
+
