@@ -1,9 +1,9 @@
 <?php
-$authKey = '1988';
+$authKey = 'key';
 
 // List of allowed domains (no trailing slashes)
 $allowed_domains = [
-    'http://localhost','https://urbanfeatconstruction.com','https://websoftlogic.com',
+    'http://localhost',
 ];
 
 // Check the secret key
