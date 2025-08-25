@@ -14,24 +14,18 @@
 {display:flex;
 align-items:center;
 }
-
 header .tt-logo .logo-icon {
     position: relative!important;
     z-index: 0;
-    
+   
 }
-
 header .tt-menu{float:right;}
-
 @media (min-width: 701px) and (max-width: 1219px) {
 header .tt-menu{float:left;margin-left:30px}
 }
 .breadcrumbs {
     margin-bottom: 50px;
 }
-
-
-
 @media (min-width: 1200px) {
     .mainSlider .slide .slide-content .tp-caption-01-02 {
         font-size: 80px;
@@ -43,9 +37,6 @@ header .tt-menu{float:left;margin-left:30px}
         margin-left: 3.0%;
     }
 }
-
-
-
 @media (max-width: 700px) {
     #tt-header .tt-menu.open-menu {
         display: block;
