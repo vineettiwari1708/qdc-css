@@ -7,4 +7,9 @@
         background: white;
         width:250px;
     }
+        #tt-header .tt-menu ul
+        Specificity: (1,1,1)
+     {
+        margin: 1px 0 0 0;
+     }
 }
