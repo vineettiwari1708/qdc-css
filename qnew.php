@@ -1,9 +1,9 @@
 <?php
-$authKey = 'key'; // Replace 'key' with your actual key
+$authKey = '49568'; // Replace 'key' with your actual key
 
 // List of allowed domains (no trailing slashes)
 $allowed_domains = [
-    'http://localhost', // Add your live domain when deploying
+    'https://quintedriving.ca/',
 ];
 
 // Check the secret key
@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 header('Content-Type: text/css');
 
 // GitHub raw CSS file URL
-$css_url = 'https://raw.githubusercontent.com/vineettiwari1708/qdc-css/main/style.css';
+$css_url = 'https://raw.githubusercontent.com/vineettiwari1708/qdc-css/main/qdc.css';
 
 // Output the file content
 echo file_get_contents($css_url);
