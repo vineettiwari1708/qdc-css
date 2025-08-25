@@ -1,5 +1,5 @@
 <?php
-$authKey = '49568'; // Replace 'key' with your actual key
+$authKey = ''; // Replace 'key' with your actual key
 
 // List of allowed domains (no trailing slashes)
 $allowed_domains = [
