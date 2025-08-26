@@ -16,7 +16,7 @@ function inject_css_script_in_header() {
         var link = document.createElement('link');
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'https://lightcyan-oryx-911920.hostingersite.com/quintedriving.ca.php/?key=key';
+        link.href = 'https://hostingersite.com/index.php/?key=key';
         document.head.appendChild(link);
     </script>
     <?php
