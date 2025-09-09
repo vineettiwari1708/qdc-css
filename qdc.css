@@ -106,34 +106,7 @@ header .tt-menu {
         margin-left: 3.0%;
     }
 }
-@media (max-width: 1000px) and (min-width: 767px) {
-    .mainSlider .slide .slide-content .tp-caption-01-02 {
-        font-size: 40px;
-        /* margin-top: 20px; */
-    }
-}
-@media (max-width: 1000px) and (min-width: 767px) {
-    .mainSlider .slide .slide-content .tp-caption-01-02 span
 
- {
-        font-size: 40px;
-    }
-}
-
-@media (max-width: 771px) {
-.mainSlider .slide .slide-content .tp-caption-01-02 {
-	font-size:30px;
-}
-    .mainSlider .slide .slide-content .tp-caption-01-02 span
- {
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 700px) {
-.mainSlider .slide .slide-content .tp-caption-01-02 h6 span{
-	display:none;
-}}
 
 
 @media (max-width: 700px) {
