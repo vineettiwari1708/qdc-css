@@ -37,6 +37,7 @@ header .tt-menu{float:left;margin-left:30px}
         margin-left: 3.0%;
     }
 }
+
 @media (max-width: 700px) {
     #tt-header .tt-menu.open-menu {
         display: block;
@@ -113,11 +114,23 @@ header .tt-menu {
 }
 @media (max-width: 1000px) and (min-width: 767px) {
     .mainSlider .slide .slide-content .tp-caption-01-02 span
-Specificity: (0,4,1)
+
  {
         font-size: 40px;
     }
 }
+
+@media (max-width: 771px) 
+.mainSlider .slide .slide-content .tp-caption-01-02 {
+	font-size:30px;
+}
+
+    .mainSlider .slide .slide-content .tp-caption-01-02 span
+ {
+        font-size: 30px;
+    }
+}
+
 
 @media (max-width: 700px) {
     #tt-header .tt-menu.open-menu {
