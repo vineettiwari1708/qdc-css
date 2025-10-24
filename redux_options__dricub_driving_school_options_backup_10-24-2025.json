@@ -41,7 +41,7 @@
 	"dricub_driving_school_header_order_modal_mc_form": "[ninja_form id=4]",
 	"dricub_driving_school_header_order_button_url": "",
 	"dricub_driving_school_display_gmap": "1",
-	"dricub_driving_school_gmap_api_key": "AIzaSyCa33WY3EJObzo592BJKG6JFabx_qo4dtA",
+	"dricub_driving_school_gmap_api_key": "",
 	"dricub_driving_school_gmap_zoom": "14",
 	"dricub_driving_school_gmap_latitude": "40.6700",
 	"dricub_driving_school_gmap_longitude": "-73.9400",
