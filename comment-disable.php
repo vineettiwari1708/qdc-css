@@ -1,3 +1,4 @@
+<?php
 // Completely Disable Comments
 
 add_action('admin_init', function () {
